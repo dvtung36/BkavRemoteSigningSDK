@@ -1,0 +1,6 @@
+framework module Pods_BkavSdkRemoteSigning {
+  umbrella header "Pods-BkavSdkRemoteSigning-umbrella.h"
+
+  export *
+  module * { export * }
+}

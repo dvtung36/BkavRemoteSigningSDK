@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1D907D29C9513500A07F50 /* BkavSdkRemoteSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1D907C29C9513500A07F50 /* BkavSdkRemoteSigning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC1D90DC29C95E8B00A07F50 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D90DB29C95E8B00A07F50 /* Repository.swift */; };
+		BC1D90DE29C95EC100A07F50 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D90DD29C95EC100A07F50 /* ApiProvider.swift */; };
+		BC1D90E029C95F0700A07F50 /* NetWorkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D90DF29C95F0700A07F50 /* NetWorkConstant.swift */; };
+		BC1D90E329C95F5D00A07F50 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D90E229C95F5D00A07F50 /* Utils.swift */; };
+		BC1D90E729C9600B00A07F50 /* ModulLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D90E629C9600B00A07F50 /* ModulLogin.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D9A19124104F59FC998F4DD /* Pods-BkavSdkRemoteSigning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BkavSdkRemoteSigning.release.xcconfig"; path = "Target Support Files/Pods-BkavSdkRemoteSigning/Pods-BkavSdkRemoteSigning.release.xcconfig"; sourceTree = "<group>"; };
+		55C8CE2651F4227AF9F1177A /* Pods-BkavSdkRemoteSigning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BkavSdkRemoteSigning.debug.xcconfig"; path = "Target Support Files/Pods-BkavSdkRemoteSigning/Pods-BkavSdkRemoteSigning.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1D907929C9513500A07F50 /* BkavSdkRemoteSigning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BkavSdkRemoteSigning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1D907C29C9513500A07F50 /* BkavSdkRemoteSigning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BkavSdkRemoteSigning.h; sourceTree = "<group>"; };
+		BC1D90DB29C95E8B00A07F50 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		BC1D90DD29C95EC100A07F50 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		BC1D90DF29C95F0700A07F50 /* NetWorkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkConstant.swift; sourceTree = "<group>"; };
+		BC1D90E229C95F5D00A07F50 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BC1D90E629C9600B00A07F50 /* ModulLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulLogin.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC1D907629C9513500A07F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8401C3F77B6FF5AE931033E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92F206E6442519E201C191C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55C8CE2651F4227AF9F1177A /* Pods-BkavSdkRemoteSigning.debug.xcconfig */,
+				4D9A19124104F59FC998F4DD /* Pods-BkavSdkRemoteSigning.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC1D906F29C9513500A07F50 = {
+			isa = PBXGroup;
+			children = (
+				BC1D907B29C9513500A07F50 /* BkavSdkRemoteSigning */,
+				BC1D907A29C9513500A07F50 /* Products */,
+				92F206E6442519E201C191C5 /* Pods */,
+				8401C3F77B6FF5AE931033E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC1D907A29C9513500A07F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D907929C9513500A07F50 /* BkavSdkRemoteSigning.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1D907B29C9513500A07F50 /* BkavSdkRemoteSigning */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D90DA29C95B4B00A07F50 /* Sdk */,
+				BC1D90D829C95B0400A07F50 /* NetWorkData */,
+				BC1D90D929C95B2500A07F50 /* Repository */,
+				BC1D90E129C95F2800A07F50 /* Utils */,
+				BC1D90D729C95AEF00A07F50 /* Model */,
+				BC1D907C29C9513500A07F50 /* BkavSdkRemoteSigning.h */,
+			);
+			path = BkavSdkRemoteSigning;
+			sourceTree = "<group>";
+		};
+		BC1D90D729C95AEF00A07F50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC1D90D829C95B0400A07F50 /* NetWorkData */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D90DD29C95EC100A07F50 /* ApiProvider.swift */,
+				BC1D90DF29C95F0700A07F50 /* NetWorkConstant.swift */,
+			);
+			path = NetWorkData;
+			sourceTree = "<group>";
+		};
+		BC1D90D929C95B2500A07F50 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D90DB29C95E8B00A07F50 /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		BC1D90DA29C95B4B00A07F50 /* Sdk */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D90E629C9600B00A07F50 /* ModulLogin.swift */,
+			);
+			path = Sdk;
+			sourceTree = "<group>";
+		};
+		BC1D90E129C95F2800A07F50 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D90E229C95F5D00A07F50 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BC1D907429C9513500A07F50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1D907D29C9513500A07F50 /* BkavSdkRemoteSigning.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BC1D907829C9513500A07F50 /* BkavSdkRemoteSigning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1D908029C9513500A07F50 /* Build configuration list for PBXNativeTarget "BkavSdkRemoteSigning" */;
+			buildPhases = (
+				7C5DD02D6EF23856D81685AC /* [CP] Check Pods Manifest.lock */,
+				BC1D907429C9513500A07F50 /* Headers */,
+				BC1D907529C9513500A07F50 /* Sources */,
+				BC1D907629C9513500A07F50 /* Frameworks */,
+				BC1D907729C9513500A07F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BkavSdkRemoteSigning;
+			productName = BkavSdkRemoteSigning;
+			productReference = BC1D907929C9513500A07F50 /* BkavSdkRemoteSigning.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1D907029C9513500A07F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BC1D907829C9513500A07F50 = {
+						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = BC1D907329C9513500A07F50 /* Build configuration list for PBXProject "BkavSdkRemoteSigning" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC1D906F29C9513500A07F50;
+			productRefGroup = BC1D907A29C9513500A07F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC1D907829C9513500A07F50 /* BkavSdkRemoteSigning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC1D907729C9513500A07F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C5DD02D6EF23856D81685AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BkavSdkRemoteSigning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC1D907529C9513500A07F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1D90E329C95F5D00A07F50 /* Utils.swift in Sources */,
+				BC1D90E029C95F0700A07F50 /* NetWorkConstant.swift in Sources */,
+				BC1D90DE29C95EC100A07F50 /* ApiProvider.swift in Sources */,
+				BC1D90E729C9600B00A07F50 /* ModulLogin.swift in Sources */,
+				BC1D90DC29C95E8B00A07F50 /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC1D907E29C9513500A07F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC1D907F29C9513500A07F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC1D908129C9513500A07F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C8CE2651F4227AF9F1177A /* Pods-BkavSdkRemoteSigning.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J24RHUKTN2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkav.BkavSdkRemoteSigning;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		BC1D908229C9513500A07F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D9A19124104F59FC998F4DD /* Pods-BkavSdkRemoteSigning.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J24RHUKTN2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkav.BkavSdkRemoteSigning;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1D907329C9513500A07F50 /* Build configuration list for PBXProject "BkavSdkRemoteSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1D907E29C9513500A07F50 /* Debug */,
+				BC1D907F29C9513500A07F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1D908029C9513500A07F50 /* Build configuration list for PBXNativeTarget "BkavSdkRemoteSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1D908129C9513500A07F50 /* Debug */,
+				BC1D908229C9513500A07F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC1D907029C9513500A07F50 /* Project object */;
+}
